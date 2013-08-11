@@ -83,17 +83,6 @@ This template project provides the following by default:
 
 * Homebrew
 * Git
-* Hub
 * dnsmasq w/ .dev resolver for localhost
-* rbenv
 * Full Disk Encryption requirement
-* Node.js 0.4
-* Node.js 0.6
-* Node.js 0.8
-* Ruby 1.8.7
-* Ruby 1.9.2
-* Ruby 1.9.3
-* ack
-* Findutils
-* GNU tar
-
+* [Other stuff](manifests/site.pp)
