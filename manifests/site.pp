@@ -1,6 +1,6 @@
 require boxen::environment
-require homebrew
 require gcc
+require homebrew
 
 Exec {
   group       => 'staff',
@@ -11,7 +11,7 @@ Exec {
     "${boxen::config::home}/rbenv/shims",
     "${boxen::config::home}/rbenv/bin",
     "${boxen::config::home}/rbenv/plugins/ruby-build/bin",
-    "${boxen::config::home}/homebrew/bin",
+    "/usr/local/bin",
     '/usr/bin',
     '/bin',
     '/usr/sbin',
@@ -55,37 +55,41 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
-  include hub
-  include nginx
+
+  # common apps
+  include adium
+  include chome
+  include firefox
+  include gimp
+  include homebrew
+  include iterm2::stable
+  include virtualbox
+  include xquartz
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions
-  include nodejs::v0_4
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
-
-  # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
-  include ruby::1_9_3
-  include ruby::2_0_0
-
-  # common, useful packages
+  # homebrew additions
   package {
     [
-      'ack',
-      'findutils',
-      'gnu-tar'
+      "aspell",
+      "coreutils",
+      "curl",
+      "git",
+      "gnu-sed",
+      "gnupg",
+      "mercurial",
+      "python",
+      "readline",
+      "subversion",
+      "tmux",
+      "vim",
+      "wget",
+      "xz",
     ]:
+      ensure => latest,
   }
 
-  file { "${boxen::config::srcdir}/our-boxen":
-    ensure => link,
-    target => $boxen::config::repodir
-  }
 }
