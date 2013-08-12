@@ -39,7 +39,7 @@ github "xquartz",    "1.1.0"
 
 github "adium",       "1.1.1", :repo => "dieterdemeyer/puppet-adium"
 github "bettertouchtool", "1.0.0", :repo => "lucadegasperi/puppet-bettertouchtool"
-github "chome",       "1.1.1"
+github "chrome",      "1.1.1"
 github "dockutil",    "0.1.2", :repo => "grahamgilbert/puppet-dockutil"
 github "dropbox",     "1.1.1"
 github "firefox",     "1.1.1"
