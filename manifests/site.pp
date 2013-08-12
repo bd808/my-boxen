@@ -63,7 +63,10 @@ node default {
   include gimp
   include homebrew
   include iterm2::stable
+  include keepassx
+  include libreoffice
   include virtualbox
+  include vlc
   include xquartz
 
   # fail if FDE is not enabled
