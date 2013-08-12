@@ -1,6 +1,9 @@
 require boxen::environment
-require gcc
 require homebrew
+
+class {"boxen::config":
+  $srcdir = "${::boxen_home}/projects",
+}
 
 Exec {
   group       => 'staff',
@@ -58,7 +61,7 @@ node default {
 
   # common apps
   include adium
-  include chome
+  include chrome
   include firefox
   include gimp
   include homebrew
