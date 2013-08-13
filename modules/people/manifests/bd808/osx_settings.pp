@@ -6,11 +6,20 @@ class people::bd808::osx_settings {
 
   include osx::dock::2d
   include osx::dock::dim_hidden_apps
-  class { 'osx::dock::icon_size': size => 24, }
+  include osx::dock::disable_launch_animation
+  class { 'osx::dock::icon_size': size => 32, }
 
-  include osx::finder::show_external_hard_drives_on_desktop
-  include osx::finder::show_mounted_servers_on_desktop
-  include osx::finder::show_removable_media_on_desktop
+  include osx::finder::disable_change_file_extension_warning
+  include osx::finder::disable_emptying_trash_warning
+  class {'osx::finder::show_external_hard_drives_on_desktop':
+    enabled => false,
+  }
+  class {'osx::finder::show_mounted_servers_on_desktop':
+    enabled => false,
+  }
+  class {'osx::finder::show_removable_media_on_desktop':
+    enabled => false,
+  }
   include osx::finder::unhide_library
 
   include osx::global::disable_autocorrect
