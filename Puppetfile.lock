@@ -1,12 +1,22 @@
 GITHUBTARBALL
-  remote: boxen/puppet-autoconf
+  remote: bd808/puppet-boxen
   specs:
-    autoconf (1.0.0)
+    boxen (3.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-boxen
+  remote: bd808/puppet-geektool
   specs:
-    boxen (3.0.1)
+    geektool (1.0.0)
+
+GITHUBTARBALL
+  remote: bd808/puppet-homebrew
+  specs:
+    homebrew (1.4.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -14,9 +24,19 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-gcc
+  remote: boxen/puppet-dropbox
   specs:
-    gcc (2.0.1)
+    dropbox (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-gimp
+  specs:
+    gimp (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -24,24 +44,34 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
-  remote: boxen/puppet-homebrew
+  remote: boxen/puppet-googledrive
   specs:
-    homebrew (1.4.1)
+    googledrive (1.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-hub
+  remote: boxen/puppet-heroku
   specs:
-    hub (1.0.3)
+    heroku (2.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nginx
+  remote: boxen/puppet-iterm2
   specs:
-    nginx (1.4.2)
+    iterm2 (1.0.3)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nodejs
+  remote: boxen/puppet-keepassx
   specs:
-    nodejs (3.2.9)
+    keepassx (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-libreoffice
+  specs:
+    libreoffice (4.0.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-omnigraffle
+  specs:
+    omnigraffle (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -49,14 +79,19 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.6.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-ruby
+  remote: boxen/puppet-slate
   specs:
-    ruby (6.3.0)
+    slate (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -64,9 +99,34 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
+
+GITHUBTARBALL
+  remote: dieterdemeyer/puppet-adium
+  specs:
+    adium (1.1.1)
+
+GITHUBTARBALL
+  remote: grahamgilbert/puppet-dockutil
+  specs:
+    dockutil (0.1.2)
+
+GITHUBTARBALL
+  remote: lucadegasperi/puppet-bettertouchtool
+  specs:
+    bettertouchtool (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -79,20 +139,32 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
-  autoconf (= 1.0.0)
-  boxen (= 3.0.1)
+  adium (= 1.1.1)
+  bettertouchtool (= 1.0.0)
+  boxen (= 3.0.2)
+  chrome (= 1.1.1)
   dnsmasq (= 1.0.0)
-  gcc (= 2.0.1)
+  dockutil (= 0.1.2)
+  dropbox (= 1.1.1)
+  firefox (= 1.1.1)
+  geektool (= 1.0.0)
+  gimp (= 1.0.0)
   git (= 1.2.5)
-  homebrew (= 1.4.1)
-  hub (= 1.0.3)
+  googledrive (= 1.0.2)
+  heroku (= 2.0.0)
+  homebrew (= 1.4.3)
   inifile (= 1.0.0)
-  nginx (= 1.4.2)
-  nodejs (= 3.2.9)
+  iterm2 (= 1.0.3)
+  keepassx (= 1.0.0)
+  libreoffice (= 4.0.4)
+  omnigraffle (= 1.2.0)
   openssl (= 1.0.0)
+  osx (= 1.6.0)
   repository (= 2.2.0)
-  ruby (= 6.3.0)
+  slate (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  virtualbox (= 1.0.5)
+  vlc (= 1.0.4)
   xquartz (= 1.1.0)
 

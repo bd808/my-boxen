@@ -1,10 +1,6 @@
 require boxen::environment
 require homebrew
 
-class {"boxen::config":
-  $srcdir = "${::boxen_home}/projects",
-}
-
 Exec {
   group       => 'staff',
   logoutput   => on_failure,
