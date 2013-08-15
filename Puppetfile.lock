@@ -14,6 +14,11 @@ GITHUBTARBALL
     homebrew (1.4.3)
 
 GITHUBTARBALL
+  remote: bd808/puppet-osx
+  specs:
+    osx (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.1)
@@ -77,11 +82,6 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-osx
-  specs:
-    osx (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -159,7 +159,7 @@ DEPENDENCIES
   libreoffice (= 4.0.4)
   omnigraffle (= 1.2.0)
   openssl (= 1.0.0)
-  osx (= 1.6.0)
+  osx (= 1.0.4)
   repository (= 2.2.0)
   slate (= 1.0.0)
   stdlib (= 4.1.0)

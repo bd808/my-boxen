@@ -1,31 +1,47 @@
 class people::bd808::osx_settings {
   # configure osx settings
-  include osx::disable_app_quarantine
-  include osx::no_network_dsstores
   include osx::software_update
 
-  include osx::dock::2d
-  include osx::dock::dim_hidden_apps
+  class { 'osx::airdrop::all_interfaces': ensure => 'absent' }
+
+  include osx::airport::require_password_for_computer_to_computer_networks
+
+  class { 'osx::appearance::colors':
+    main      => 'graphite',
+    highlight => 'purple',
+  }
+
+  class { 'osx::dock::style': style => '2D', }
+  include osx::dock::hidden_app_dimming
   include osx::dock::disable_launch_animation
   class { 'osx::dock::icon_size': size => 32, }
+
+  include osx::dialogs::auto_expanding_print_dialog
+  include osx::dialogs::auto_expanding_save_dialog
+  include osx::dialogs::file_view_mode
 
   include osx::finder::disable_change_file_extension_warning
   include osx::finder::disable_emptying_trash_warning
   class {'osx::finder::show_external_hard_drives_on_desktop':
-    enabled => false,
+    enable => false,
   }
   class {'osx::finder::show_mounted_servers_on_desktop':
-    enabled => false,
+    enable => false,
   }
   class {'osx::finder::show_removable_media_on_desktop':
-    enabled => false,
+    enable => false,
   }
   include osx::finder::unhide_library
 
   include osx::global::disable_autocorrect
   include osx::global::disable_remote_control_ir_receiver
-  include osx::global::enable_keyboard_control_access
-  include osx::global::expand_print_dialog
-  include osx::global::expand_save_dialog
   class { 'osx::global::natural_mouse_scrolling': enabled => false, }
+
+  class { 'osx::keyboard::control_access':
+    mode => 'all_controls_including_dropdowns',
+  }
+  class { 'osx::network::dsstores': ensure => absent, }
+
+  class { 'osx::system::app_quarantine': ensure => absent, }
+
 }
