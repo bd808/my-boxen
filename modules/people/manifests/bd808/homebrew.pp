@@ -1,35 +1,36 @@
 class people::bd808::homebrew {
-  package {
-    [
-      "figlet",
-      "graphviz",
-      "ipv6calc",
-      "par",
-      "rbenv",
-      "ruby-build",
-      "v8",
-    ]:
-      ensure  => present,
+  include homebrew
+
+  homebrew::tap { 'homebrew/dupes':
+    before => [
+      Package['grep'],
+      Package['make'],
+      Package['tidy'],
+    ],
   }
 
-  homebrew::tap { 'homebrew/dupes': }
-
-  package {
-    [
-      "tidy",
-    ]:
-      ensure  => present,
-      require => Homebrew::Tap['homebrew/dupes'],
+  homebrew::tap { 'josegonzalez/php':
+    before => [
+      Package['phpenv'],
+      Package['php-build'],
+    ],
   }
 
-  homebrew::tap { 'josegonzalez/php': }
-
   package {
     [
-      "php-build",
-      "phpenv",
+      'figlet',
+      'graphviz',
+      'ipv6calc',
+      'par',
+      'php-build',
+      'phpenv',
+      'rbenv',
+      'ruby-build',
+      'v8',
+      'grep',
+      'make',
+      'tidy',
     ]:
-      ensure  => present,
-      require => Homebrew::Tap['josegonzalez/php'],
+    ensure => 'latest',
   }
 }

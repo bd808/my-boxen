@@ -79,7 +79,6 @@ node default {
       "aspell",
       "coreutils",
       "curl",
-      "git",
       "gnu-sed",
       "gnupg",
       "mercurial",

@@ -19,8 +19,8 @@ github "boxen",      "3.0.2", :repo => "bd808/puppet-boxen"
 # some/most of these if you want, but it's not recommended.
 
 github "dnsmasq",    "1.0.0"
-github "git",        "1.2.5"
-github "homebrew",   "1.4.3", :repo => "bd808/puppet-homebrew"
+github "git",        "1.8.3", :repo => "bd808/puppet-git"
+github "homebrew",   "1.4.6", :repo => "bd808/puppet-homebrew"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "openssl",    "1.0.0"
 github "repository", "2.2.0"

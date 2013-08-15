@@ -9,9 +9,14 @@ GITHUBTARBALL
     geektool (1.0.0)
 
 GITHUBTARBALL
+  remote: bd808/puppet-git
+  specs:
+    git (1.8.3)
+
+GITHUBTARBALL
   remote: bd808/puppet-homebrew
   specs:
-    homebrew (1.4.3)
+    homebrew (1.4.6)
 
 GITHUBTARBALL
   remote: bd808/puppet-osx
@@ -42,11 +47,6 @@ GITHUBTARBALL
   remote: boxen/puppet-gimp
   specs:
     gimp (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-git
-  specs:
-    git (1.2.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-googledrive
@@ -149,10 +149,10 @@ DEPENDENCIES
   firefox (= 1.1.1)
   geektool (= 1.0.0)
   gimp (= 1.0.0)
-  git (= 1.2.5)
+  git (= 1.8.3)
   googledrive (= 1.0.2)
   heroku (= 2.0.0)
-  homebrew (= 1.4.3)
+  homebrew (= 1.4.6)
   inifile (= 1.0.0)
   iterm2 (= 1.0.3)
   keepassx (= 1.0.0)
