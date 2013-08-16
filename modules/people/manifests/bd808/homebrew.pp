@@ -11,25 +11,41 @@ class people::bd808::homebrew {
 
   homebrew::tap { 'josegonzalez/php':
     before => [
-      Package['phpenv'],
       Package['php-build'],
+      Package['phpenv'],
     ],
+  }
+
+  package { 'aspell':
+    before => Package['vim'],
   }
 
   package {
     [
+      'coreutils',
+      'curl',
       'figlet',
+      'gnu-sed',
+      'gnupg',
       'graphviz',
+      'grep',
+      'ical-buddy',
       'ipv6calc',
+      'libevent',
+      'make',
       'par',
       'php-build',
       'phpenv',
+      'python',
       'rbenv',
+      'reattach-to-user-namespace',
       'ruby-build',
-      'v8',
-      'grep',
-      'make',
+      'subversion',
       'tidy',
+      'tmux',
+      'v8',
+      'vim',
+      'wget',
     ]:
     ensure => 'latest',
   }
