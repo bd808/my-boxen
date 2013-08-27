@@ -20,7 +20,7 @@ class people::bd808::osx_settings {
   }
 
   class { 'osx::desktop::displayed_items':
-    internal_hard_drives => true,
+    internal_hard_drives => false,
     external_hard_drives => false,
     mounted_servers => false,
     removable_media => false,
@@ -71,7 +71,7 @@ class people::bd808::osx_settings {
   include osx::login::style
 
   class { 'osx::menu_bar::airplay': ensure => 'absent' }
-  class { 'osx::menu_bar::date': format => 'EEE H:mm' }
+  class { 'osx::menu_bar::date': format => 'MMM d H:mm' }
   class { 'osx::menu_bar::transparency': ensure => 'absent' }
 
   class { 'osx::mission_control::dashboard_visibility': ensure => 'absent' }
