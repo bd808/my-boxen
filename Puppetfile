@@ -13,7 +13,8 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.0.2", :repo => "bd808/puppet-boxen"
+github "boxen",             "3.0.2", :repo => "bd808/puppet-boxen"
+github "property_list_key", "0.1.0"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -46,7 +47,7 @@ github "iterm2",      "1.0.3"
 github "keepassx",    "1.0.0"
 github "libreoffice", "4.1.0"
 github "omnigraffle", "1.2.0"
-github "osx",         "1.0.4", :repo => "bd808/puppet-osx"
+github "osx",         "1.0.5", :repo => "bd808/puppet-osx"
 github "slate",       "1.0.0"
 github "virtualbox",  "1.0.5"
 github "vlc",         "1.0.4"

@@ -21,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: bd808/puppet-osx
   specs:
-    osx (1.0.4)
+    osx (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -87,6 +87,11 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -165,7 +170,8 @@ DEPENDENCIES
   libreoffice (= 4.1.0)
   omnigraffle (= 1.2.0)
   openssl (= 1.0.0)
-  osx (= 1.0.4)
+  osx (= 1.0.5)
+  property_list_key (= 0.1.0)
   repository (= 2.2.0)
   slate (= 1.0.0)
   stdlib (= 4.1.0)
