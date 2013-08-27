@@ -4,9 +4,12 @@ class people::bd808::applications {
   include dropbox
   include geektool
   include googledrive
+  include growl_fork
   include heroku
   include omnigraffle::pro
+  include secondbar
   include slate
+  include slimbatterymonitor
 
   # homebrew additions
   package {
