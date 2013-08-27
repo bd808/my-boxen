@@ -5,7 +5,7 @@ class people::bd808::applications {
   include geektool
   include googledrive
   include heroku
-  include omnigraffle
+  include omnigraffle::pro
   include slate
 
   # homebrew additions

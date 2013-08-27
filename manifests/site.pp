@@ -61,6 +61,7 @@ node default {
   include firefox
   include gimp
   include homebrew
+  include inkscape
   include iterm2::stable
   include keepassx
   include libreoffice

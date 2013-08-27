@@ -59,6 +59,11 @@ GITHUBTARBALL
     heroku (2.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-inkscape
+  specs:
+    inkscape (1.0.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
     iterm2 (1.0.3)
@@ -71,7 +76,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-libreoffice
   specs:
-    libreoffice (4.0.4)
+    libreoffice (4.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-omnigraffle
@@ -154,9 +159,10 @@ DEPENDENCIES
   heroku (= 2.0.0)
   homebrew (= 1.4.6)
   inifile (= 1.0.0)
+  inkscape (= 1.0.3)
   iterm2 (= 1.0.3)
   keepassx (= 1.0.0)
-  libreoffice (= 4.0.4)
+  libreoffice (= 4.1.0)
   omnigraffle (= 1.2.0)
   openssl (= 1.0.0)
   osx (= 1.0.4)
