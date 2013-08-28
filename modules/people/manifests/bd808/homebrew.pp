@@ -16,17 +16,9 @@ class people::bd808::homebrew {
     ],
   }
 
-  package { 'aspell':
-    before => Package['vim'],
-  }
-
   package {
     [
-      'coreutils',
-      'curl',
       'figlet',
-      'gnu-sed',
-      'gnupg',
       'graphviz',
       'grep',
       'ical-buddy',
@@ -36,16 +28,11 @@ class people::bd808::homebrew {
       'par',
       'php-build',
       'phpenv',
-      'python',
       'rbenv',
       'reattach-to-user-namespace',
       'ruby-build',
-      'subversion',
       'tidy',
-      'tmux',
       'v8',
-      'vim',
-      'wget',
     ]:
     ensure => 'latest',
   }

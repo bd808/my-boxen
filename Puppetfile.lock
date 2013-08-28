@@ -14,14 +14,29 @@ GITHUBTARBALL
     git (1.8.3)
 
 GITHUBTARBALL
+  remote: bd808/puppet-growl
+  specs:
+    growl (1.2.2)
+
+GITHUBTARBALL
   remote: bd808/puppet-homebrew
   specs:
     homebrew (1.4.6)
 
 GITHUBTARBALL
+  remote: bd808/puppet-monolingual
+  specs:
+    monolingual (1.5.7)
+
+GITHUBTARBALL
   remote: bd808/puppet-osx
   specs:
     osx (1.0.5)
+
+GITHUBTARBALL
+  remote: bd808/puppet-slimbatterymonitor
+  specs:
+    slimbatterymonitor (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -99,6 +114,16 @@ GITHUBTARBALL
     repository (2.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-secondbar
+  specs:
+    secondbar (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-slate
   specs:
     slate (1.0.0)
@@ -161,6 +186,7 @@ DEPENDENCIES
   gimp (= 1.0.0)
   git (= 1.8.3)
   googledrive (= 1.0.2)
+  growl (= 1.2.2)
   heroku (= 2.0.0)
   homebrew (= 1.4.6)
   inifile (= 1.0.0)
@@ -168,12 +194,16 @@ DEPENDENCIES
   iterm2 (= 1.0.3)
   keepassx (= 1.0.0)
   libreoffice (= 4.1.0)
+  monolingual (= 1.5.7)
   omnigraffle (= 1.2.0)
   openssl (= 1.0.0)
   osx (= 1.0.5)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
+  secondbar (= 1.0.1)
+  skype (= 1.0.4)
   slate (= 1.0.0)
+  slimbatterymonitor (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   virtualbox (= 1.0.5)

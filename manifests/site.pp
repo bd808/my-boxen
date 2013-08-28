@@ -75,21 +75,24 @@ node default {
   }
 
   # homebrew additions
+  package { 'aspell':
+    before => Package['vim'],
+  }
+
   package {
     [
-      "aspell",
-      "coreutils",
-      "curl",
-      "gnu-sed",
-      "gnupg",
-      "mercurial",
-      "python",
-      "readline",
-      "subversion",
-      "tmux",
-      "vim",
-      "wget",
-      "xz",
+      'coreutils',
+      'curl',
+      'gnu-sed',
+      'gnupg',
+      'mercurial',
+      'python',
+      'readline',
+      'subversion',
+      'tmux',
+      'vim',
+      'wget',
+      'xz',
     ]:
       ensure => latest,
   }
