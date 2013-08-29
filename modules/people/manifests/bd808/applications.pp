@@ -12,4 +12,5 @@ class people::bd808::applications {
   include skype
   include slate
   include slimbatterymonitor
+  include vagrant
 }
