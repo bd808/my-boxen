@@ -1,13 +1,13 @@
 verbose boot
-dock to right side
-non-transparent menu bar
 hide bluetooth icon
 fast user switching
-disable gadgets
 default function key behavior
 
 dock management?
 ipv6 privacy addresses
 firewall settings
+
+tell iterm to load prefs from dotfiles:
+  com.googlecode.iterm2.plist => PrefsCustomFolder = ~/.iterm2
 
 install stuff from app store? (seems to not be possible)
