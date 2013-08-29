@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",             "3.0.2", :repo => "bd808/puppet-boxen"
+github "boxen",             "3.0.3", :repo => "bd808/puppet-boxen"
 github "property_list_key", "0.1.0"
 
 # Core modules for a basic development environment. You can replace
