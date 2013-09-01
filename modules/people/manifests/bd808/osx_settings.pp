@@ -97,6 +97,7 @@ class people::bd808::osx_settings {
   class { 'osx::system::save_windows_on_quit':
     ensure =>'absent',
   }
+  include osx::system::verbose_boot
 
   class { 'osx::time_machine::ask_to_use_new_disks_for_backup':
     ensure => 'absent',

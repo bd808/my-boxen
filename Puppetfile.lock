@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: bd808/puppet-osx
   specs:
-    osx (1.0.5)
+    osx (1.0.6)
 
 GITHUBTARBALL
   remote: bd808/puppet-slimbatterymonitor
@@ -208,7 +208,7 @@ DEPENDENCIES
   omnigraffle (= 1.2.0)
   onyx (= 1.0.1)
   openssl (= 1.0.0)
-  osx (= 1.0.5)
+  osx (= 1.0.6)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
   secondbar (= 1.0.1)
