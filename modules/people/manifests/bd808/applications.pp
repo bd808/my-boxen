@@ -8,6 +8,7 @@ class people::bd808::applications {
   include heroku
   include monolingual
   include omnigraffle::pro
+  include onyx
   include secondbar
   include skype
   include slate

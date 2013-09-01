@@ -99,6 +99,11 @@ GITHUBTARBALL
     omnigraffle (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-onyx
+  specs:
+    onyx (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -201,6 +206,7 @@ DEPENDENCIES
   libreoffice (= 4.1.0)
   monolingual (= 1.5.7)
   omnigraffle (= 1.2.0)
+  onyx (= 1.0.1)
   openssl (= 1.0.0)
   osx (= 1.0.5)
   property_list_key (= 0.1.0)
