@@ -6,6 +6,7 @@ class people::bd808::applications {
   include googledrive
   include growl
   include heroku
+  include limechat
   include monolingual
   include omnigraffle::pro
   include onyx
