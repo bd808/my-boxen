@@ -193,6 +193,11 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: smh/puppet-pckeyboardhack
+  specs:
+    pckeyboardhack (1.0.5)
+
 DEPENDENCIES
   adium (= 1.1.1)
   bettertouchtool (= 1.0.0)
@@ -220,6 +225,7 @@ DEPENDENCIES
   onyx (= 1.0.1)
   openssl (= 1.0.0)
   osx (= 1.0.6)
+  pckeyboardhack (= 1.0.5)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
   secondbar (= 1.0.1)
