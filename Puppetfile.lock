@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (3.0.3)
 
 GITHUBTARBALL
+  remote: bd808/puppet-dnsmasq
+  specs:
+    dnsmasq (2.0.9)
+
+GITHUBTARBALL
   remote: bd808/puppet-geektool
   specs:
     geektool (1.0.0)
@@ -42,11 +47,6 @@ GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
-  specs:
-    dnsmasq (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -203,7 +203,7 @@ DEPENDENCIES
   bettertouchtool (= 1.0.0)
   boxen (= 3.0.3)
   chrome (= 1.1.1)
-  dnsmasq (= 1.0.0)
+  dnsmasq (= 2.0.9)
   dockutil (= 0.1.2)
   dropbox (= 1.1.1)
   firefox (= 1.1.1)
