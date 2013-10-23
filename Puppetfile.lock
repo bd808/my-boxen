@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: bd808/puppet-boxen
   specs:
-    boxen (3.0.3)
+    boxen (3.0.4)
 
 GITHUBTARBALL
   remote: bd808/puppet-dnsmasq
@@ -201,7 +201,7 @@ GITHUBTARBALL
 DEPENDENCIES
   adium (= 1.1.1)
   bettertouchtool (= 1.0.0)
-  boxen (= 3.0.3)
+  boxen (= 3.0.4)
   chrome (= 1.1.1)
   dnsmasq (= 2.0.9)
   dockutil (= 0.1.2)
