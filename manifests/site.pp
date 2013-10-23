@@ -57,6 +57,7 @@ node default {
 
   # common apps
   include adium
+  include apache
   include chrome
   include firefox
   include gimp

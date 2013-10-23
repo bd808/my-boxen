@@ -19,6 +19,7 @@ github "property_list_key", "0.1.0"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "nginx",      "1.4.2"
 github "git",        "1.8.3", :repo => "bd808/puppet-git"
 github "homebrew",   "1.4.6", :repo => "bd808/puppet-homebrew"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
@@ -32,6 +33,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "adium",       "1.1.1", :repo => "dieterdemeyer/puppet-adium"
+github "apache",      "0.0.2", :repo => "mattheath/puppet-apache"
 github "bettertouchtool", "1.0.0", :repo => "lucadegasperi/puppet-bettertouchtool"
 github "chrome",      "1.1.1"
 github "dnsmasq",     "2.0.9", :repo => "bd808/puppet-dnsmasq"

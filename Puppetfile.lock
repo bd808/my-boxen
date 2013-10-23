@@ -94,6 +94,11 @@ GITHUBTARBALL
     libreoffice (4.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nginx
+  specs:
+    nginx (1.4.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-omnigraffle
   specs:
     omnigraffle (1.2.0)
@@ -184,6 +189,11 @@ GITHUBTARBALL
     bettertouchtool (1.0.0)
 
 GITHUBTARBALL
+  remote: mattheath/puppet-apache
+  specs:
+    apache (0.0.2)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -200,6 +210,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adium (= 1.1.1)
+  apache (= 0.0.2)
   bettertouchtool (= 1.0.0)
   boxen (= 3.0.4)
   chrome (= 1.1.1)
@@ -221,6 +232,7 @@ DEPENDENCIES
   libreoffice (= 4.1.0)
   limechat (= 1.2.0)
   monolingual (= 1.5.7)
+  nginx (= 1.4.2)
   omnigraffle (= 1.2.0)
   onyx (= 1.0.1)
   openssl (= 1.0.0)
