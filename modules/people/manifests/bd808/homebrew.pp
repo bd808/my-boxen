@@ -36,4 +36,21 @@ class people::bd808::homebrew {
     ]:
     ensure => 'latest',
   }
+
+  # pacakges needed to build a local php with php-build
+  package {
+    [
+      'autoconf',
+      'freetype',
+      'gettext',
+      'gmp',
+      'icu4c',
+      'jpeg',
+      'libpng',
+      'mcrypt',
+      'openssl',
+      'zlib',
+    ]:
+    ensure => 'latest',
+  }
 }
