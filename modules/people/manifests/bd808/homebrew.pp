@@ -25,6 +25,7 @@ class people::bd808::homebrew {
       'ipv6calc',
       'libevent',
       'make',
+      'mobile-shell',
       'par',
       'php-build',
       'phpenv',
