@@ -23,6 +23,7 @@ class people::bd808::homebrew {
       'grep',
       'ical-buddy',
       'ipv6calc',
+      'jq',
       'libevent',
       'make',
       'mobile-shell',
