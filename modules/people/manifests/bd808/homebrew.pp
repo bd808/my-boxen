@@ -30,6 +30,7 @@ class people::bd808::homebrew {
       'par',
       'php-build',
       'phpenv',
+      'phpsh',
       'rbenv',
       'reattach-to-user-namespace',
       'ruby-build',
